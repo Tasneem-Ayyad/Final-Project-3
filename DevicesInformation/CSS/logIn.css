@@ -1,0 +1,83 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    background-image: url("./wallpaperflare.com_wallpaper-1.jpg") !important ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    /* background-position: 10% 30%; */
+    
+}
+
+#logo{
+    margin-top: 15px;
+}
+
+.logIn{
+    width: 500px;
+    height: 500px;
+    margin:  auto;
+    padding: 10px 50px 15px;
+    border-radius: 70px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    color:white;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+.logIn h1{
+    float:left;
+    font-size: 38px;
+    border-bottom: 6px solid #926f34;
+    margin-bottom: 50px;
+    font-weight: 600;
+   /* padding: 10px 20px 15px;*/
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 40px 0px;
+    border-bottom: 1px solid #926f34;
+    
+}
+
+.textbox i {
+    float:left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+  .textbox:hover, .textbox:focus{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 40px 0px;
+    border-bottom: 3px solid #f3e083;
+    outline: none;
+}
+  .btn{
+      color:white !important;
+      margin-top: 60px !important;
+      margin: 28px 0px;
+      border-color: #ae8625 !important;
+  }
+  .btn:hover{
+      background-color: #ae8625 !important;
+      border-color: goldenrod;
+  }
+  
+ 
